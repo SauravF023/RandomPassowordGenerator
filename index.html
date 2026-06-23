@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Generate a <span>random password</span></h1>
+    <p>Never use an insecure password again.</p>
+
+    <div class="controls">
+      <button onclick="generatePasswords()">⚡ Generate passwords</button>
+      <input type="number" id="length" value="10" min="4" max="32">
+    </div>
+
+    <div class="passwords">
+      <div class="password-box" id="pw1" onclick="copyPassword('pw1')">
+        <span class="pw-text"></span>
+        <span class="strength"></span>
+      </div>
+      <div class="password-box" id="pw2" onclick="copyPassword('pw2')">
+        <span class="pw-text"></span>
+        <span class="strength"></span>
+      </div>
+      <div class="password-box" id="pw3" onclick="copyPassword('pw3')">
+        <span class="pw-text"></span>
+        <span class="strength"></span>
+      </div>
+      <div class="password-box" id="pw4" onclick="copyPassword('pw4')">
+        <span class="pw-text"></span>
+        <span class="strength"></span>
+      </div>
+    </div>
+
+    <div class="toggle">
+      <label for="special">Special characters</label>
+      <input type="checkbox" id="special" checked>
+    </div>
+
+    <div class="toggle">
+      <label for="uppercase">Uppercase</label>
+      <input type="checkbox" id="uppercase" checked>
+    </div>
+
+    <h2>Password History</h2>
+    <ul id="history"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
