@@ -246,13 +246,13 @@ Potential enhancements:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/random-password-generator.git
+git clone https://github.com/SauravF023/RandomPassowordGenerator.git
 ```
 
 ### Navigate to Project Folder
 
 ```bash
-cd random-password-generator
+cd RandomPassowordGenerator
 ```
 
 ### Run the Application
@@ -319,7 +319,7 @@ This project is licensed under the MIT License.
 
 Saurav Mishra
 
-B.Tech (ECE) | 2022-2026 BATCH
+B.Tech (ECE) | 2022-2026 BATCH | 
 Aspiring Software Engineer | MERN Stack Developer | Java | Python
 
 ---
