@@ -271,16 +271,14 @@ No installation or dependencies required.
 
 ## 📸 Screenshots
 
-Add screenshots here after deployment.
+Screenshots here after deployment:-
+1.Generating password without criteria
 
-Example:
+<img width="593" height="434" alt="Pswd_without criteria" src="https://github.com/user-attachments/assets/8a537188-6e91-4f13-8cb8-d1b22b81b367" />
 
-```plaintext
-screenshots/home.png
-screenshots/generated-passwords.png
-```
+2.Generating password with criteria
 
----
+<img width="590" height="436" alt="Pswd_with criteria" src="https://github.com/user-attachments/assets/86c76f13-9160-44a4-94a9-b05fc7d0ee6d" />
 
 ## 🤝 Contributing
 
